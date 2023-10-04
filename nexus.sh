@@ -13,7 +13,13 @@ tar xzf nexus-3.29.2-02-unix.tar.gz -C /opt/nexus --strip-components=1
 chown -R nexus:nexus /opt/nexus
 
 nano /opt/nexus/bin/nexus.vmoptions
-
+To start the nexus server
+/opt/nexusnexus-3.61.0-01/bin/nexus start
+To see process id
+ps aux | grep nexus
+To view port
+netstat -lpnt
+Expose the port
 
 
 ```
