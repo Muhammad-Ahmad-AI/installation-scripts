@@ -22,6 +22,12 @@ netstat -lpnt
 Expose the port
 
 
+
+To View the default admin password
+ls /opt/nexus/sonatype-work/nexus3
+cat /opt/nexus/sonatype-work/nexus3/admin.password
+
+
 ```
 https://www.howtoforge.com/how-to-install-and-configure-nexus-repository-manager-on-ubuntu-20-04/
 ```
