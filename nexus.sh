@@ -14,7 +14,7 @@ chown -R nexus:nexus /opt/nexus
 
 nano /opt/nexus/bin/nexus.vmoptions
 To start the nexus server
-/opt/nexusnexus-3.61.0-01/bin/nexus start
+/opt/nexus/nexus-3.61.0-01/bin/nexus start
 To see process id
 ps aux | grep nexus
 To view port
